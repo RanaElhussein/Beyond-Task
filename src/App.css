@@ -1,0 +1,474 @@
+.One{
+  background-color: #d30e5d;
+  background-image: url(./Images/Layer\ 45.png);
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  /* min-width: fit-content; */
+  opacity: 50%;
+  overflow: hidden;
+  width: 100%;
+}
+.smicons{
+  position: absolute;
+  top: 60px;
+  left: 25px;
+}
+h1{
+  font-size: 187px;
+  line-height: 145px;
+  color: #ffffff;
+  font-weight: 800;
+  font-family: "Arial";
+  text-align: center;
+  margin-block-end: 0em;
+  margin-block-start: 0em;
+}
+.underhead{
+  font-size: 16px;
+  letter-spacing: 3px;
+  line-height: 13px;
+  color: #ffffff;
+  font-weight: 800;
+  font-family: "Arial";
+  text-align: center;
+}
+.dropdown{
+  width: 60px;
+  margin-left: 15px;
+  margin-top: 23px;
+}
+.startButton{
+  width: 150px;
+  height: 50px;
+  border:none;
+  border:solid 2px white;
+  border-radius: 5px;
+  background: rgba(255, 255, 255,0);
+  font-size: 25px;
+  border-radius: 25px;
+  float: right;
+  color: white;
+  margin-top: 15%;
+  margin-bottom: 5%;
+  margin-right: 5%;
+}
+.menubuttons{
+  display: none;
+}
+.Two{
+  margin-top: 15px;
+  height: auto;
+  margin-right: 50px;
+  margin-left: 50px;
+  /* width: 100%; */
+}
+@media screen and (min-width: 1024px){
+
+  .gambit{
+    margin-bottom: 16%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2.5%;
+  }
+  .header{
+    display: flex;
+  }
+  .dropdown{
+    display: none;
+  }
+  .menubuttons{
+    display: inline;
+    /* width: 35px; */
+    height: 35px;
+    background: rgba(255, 255, 255,0);
+    font-size: 8px;
+    color: white;
+    margin-top: 8%;
+    /* margin-bottom: 5%; */
+    /* margin-right: 1%; */
+    margin-left: 2%;
+    border: none;
+  }
+  .smicons{
+    position: absolute;
+    top: 900px;
+    left: 50px;
+  }
+  .Two{
+    overflow: hidden;
+    width: 100%;
+  }
+  .twoLeft{
+    width:50%;
+    overflow: hidden;
+  }
+  .parent {
+    float: right;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 50%;
+  }
+  .parentimg{
+    position: relative;
+    bottom: 115px;
+  }
+  .childimg{
+    position: relative;
+    bottom: 480px;
+    left: 40px;
+  }
+  .inspiration{
+    padding-top: 100px;
+    font-size: 68px;
+    /* line-height: 61px; */
+    color: #d30e5d;
+    font-weight: 800;
+    font-family: "Arial";
+    margin-bottom: 0px;
+  }
+  .miniheaders{
+    width: 442px;
+    /* height: 283px; */
+    font-size: 25px;
+    line-height: 18px;
+    color: #d30e5d;
+    font-weight: bold;
+    font-family: "Calibri";
+  }
+  .gamedisc{
+    width: 442px;
+    height: 88px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #361551;
+    font-weight: bold;
+    font-family: "Calibri";
+
+  }
+  .Three{
+    background-color:#25093b;
+    margin-top: 15px;
+    height: 600px;
+    /* padding-right: 50px; 
+    padding-left: 50px; */
+    /* overflow: hidden; */
+    vertical-align: middle;
+  }
+  .whoweare{
+    font-size: 68px;
+    /* line-height: 61px; */
+    color: #d30e5d;
+    font-weight: 800;
+    font-family: "Arial";
+    margin-bottom: 0px;
+    text-align: center;
+    padding-top: 100px;
+  }
+  .disc{
+    /* height: 88px; */
+    font-size: 25px;
+    line-height: 18px;
+    color: white;
+    font-family: "Calibri";
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+  }
+  .tmp{
+    /* width: 100%; */
+    margin-left: 10%;
+  }
+  .threeLeft{
+    float: left;
+    width: 50%;
+  }
+  .threeRight{
+    float: right;
+    width: 50%;
+    margin-top: -210px;
+    padding-right: 100px;
+  }
+  .parentThree {
+    float: left;
+    position: relative;
+    top: 30px;
+    left: 54px;
+    text-align: center;
+  }
+  .parentThreeimg{
+    position: relative;
+  }
+  .childThreeimg{
+    position: relative;
+    left: -112px;
+    bottom: 40px;
+  }
+  .aim{
+    font-size: 15px;
+    line-height: 18px;
+    color: white;
+    font-family: "Calibri";
+    margin-top: 55px;
+    width: 40%;
+    padding-left: 33%;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .One{
+    width: fit-content;
+    padding-left: 145px;
+    padding-right: 145px;
+  }
+  .gambit{
+    margin-left: 24%;
+    margin-bottom: 22%;
+    margin-top: 5%;
+  }
+  .dropdown{
+    margin-top: 25px;
+    margin-left: 100px;
+  }
+  .header{
+    display: flex;
+  }
+  .startButton{
+    margin-right: -17%;
+  }
+  .smicons{
+    top: 67px;
+  }
+  .Two{
+    /* overflow: hidden; */
+    vertical-align: middle;
+  }
+  .inspiration{
+    font-size: 68px;
+    /* line-height: 61px; */
+    color: #d30e5d;
+    font-weight: 800;
+    font-family: "Arial";
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  .parent {
+    float: right;
+    position: relative;
+    top: 145px;
+    left: 0;
+    text-align: center;
+    height: 525px;
+  }
+  .parentimg{
+    position: relative;
+    bottom: 115px;
+  }
+  .childimg{
+    position: relative;
+    bottom: 480px;
+  }
+  .twoLeft{
+    top: 10px;
+  }
+  .miniheaders{
+    width: 442px;
+    /* height: 283px; */
+    font-size: 25px;
+    line-height: 18px;
+    color: #d30e5d;
+    font-weight: bold;
+    font-family: "Calibri";
+  }
+  .gamedisc{
+    height: 88px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #361551;
+    font-weight: bold;
+    font-family: "Calibri";
+  }
+  .Three{
+    background-color:#25093b;
+    margin-top: 15px;
+    height: auto;
+    padding-right: 50px; 
+    padding-left: 50px;
+    /* overflow: hidden; */
+    vertical-align: middle;
+    width: 100%;
+  }
+  .whoweare{
+    font-size: 42px;
+    /* line-height: 61px; */
+    color: #d30e5d;
+    font-weight: 800;
+    font-family: "Arial";
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  .disc{
+    /* height: 88px; */
+    font-size: 15px;
+    line-height: 18px;
+    color: white;
+    font-weight: bold;
+    font-family: "Calibri";
+    width: 52%;
+    text-align: center;
+    margin-left: 23%;
+  }
+  .parentThree {
+    /* float: right; */
+    position: relative;
+    top: 30px;
+    left: 54px;
+    text-align: center;
+  }
+  .parentThreeimg{
+    position: relative;
+  }
+  .childThreeimg{
+    position: relative;
+    left: -112px;
+    bottom: 40px;
+  }
+  .aim{
+    font-size: 15px;
+    line-height: 18px;
+    color: white;
+    font-family: "Calibri";
+    margin-top: 55px;
+    width: 40%;
+    padding-left: 33%;
+    text-align: center;
+  }
+}
+  @media (max-width: 767px) {
+    .One{
+      width: fit-content;
+    }
+    .gambit{
+      margin-left: 27%;
+      margin-bottom: 29%;
+      margin-top: 7%;
+      width: 230px;
+      display: inline-block;
+    }
+    h1 {
+      font-size: 100px;
+      line-height: 90px;
+      margin-left: 102px;
+     margin-right: 102px;
+    }
+    .header{
+      display: flex;
+    }
+    .underhead {
+      font-size: 6px;
+      letter-spacing: 3px;
+    }
+    .Two{
+      /* padding-right: 50px;  */
+      vertical-align: middle;
+      width: fit-content;
+      padding-bottom: 20%;
+      width: fit-content;
+    }
+    .inspiration{
+      font-size: 55px;
+      /* line-height: 61px; */
+      color: #d30e5d;
+      font-weight: 100px;
+      font-family: "Arial";
+      margin-bottom: 0px;
+      text-align: center;
+    }
+    .parent {
+      /* float: right; */
+      position: relative;
+      top: 145px;
+      left: 0;
+      text-align: center;
+    }
+    .parentimg{
+      position: relative;
+      bottom: 115px;
+    }
+    .childimg{
+      position: relative;
+      bottom: 480px;
+    }
+    .twoLeft{
+      top: 10px;
+    }
+    .miniheaders{
+      width: 442px;
+      /* height: 283px; */
+      font-size: 25px;
+      line-height: 18px;
+      color: #d30e5d;
+      font-weight: bold;
+      font-family: "Calibri";
+    }
+    .gamedisc{
+      /* height: 88px; */
+      font-size: 15px;
+      line-height: 18px;
+      color: #361551;
+      font-weight: bold;
+      font-family: "Calibri";
+    }
+    .Three{
+      background-color:#25093b;
+      margin-top: 15px;
+      /* height: auto; */
+      padding-right: 97px; 
+      padding-left: 97px;
+      overflow: hidden;
+      text-align: center;
+      vertical-align: middle;
+      width: 100%;
+    }
+    .whoweare{
+      font-size: 42px;
+      /* line-height: 61px; */
+      color: #d30e5d;
+      font-weight: 800;
+      font-family: "Arial";
+      margin-bottom: 0px;
+      text-align: center;
+    }
+    .disc{
+      /* height: 88px; */
+      font-size: 15px;
+      line-height: 18px;
+      color: white;
+      font-weight: bold;
+      font-family: "Calibri";
+    }
+    .parentThree {
+      /* float: right; */
+      position: relative;
+      top: 30px;
+      left: 36px;
+      text-align: center;
+    }
+    .parentThreeimg{
+      position: relative;
+    }
+    .childThreeimg{
+      position: relative;
+      left: -112px;
+      bottom: 40px;
+    }
+    .aim{
+      font-size: 15px;
+      line-height: 18px;
+      color: white;
+      font-family: "Calibri";
+      margin-top: 55px;
+      width: 65%;
+      padding-left: 20%;
+    }
+}
